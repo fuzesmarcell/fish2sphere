@@ -28,6 +28,9 @@ SOFTWARE.
 #include <inttypes.h>
 
 // pixels are assumed to be in ARGB
-void fish2sphere(uint32_t* fe_pixels, int fe_w, int fe_h, float fov, uint32_t* s_pixels, int s_w, int s_h);
+void fish2sphere(uint32_t* fe_pixels, int fe_w, int fe_h, uint32_t* s_pixels, int s_w, int s_h,
+                 float fov = 3.1415926536f,
+                 float theta_off = 0.f,
+                 float phi_off = 0.f);
 
 #endif // !FISH2SPHERE_H
