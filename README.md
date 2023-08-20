@@ -14,6 +14,7 @@ git clone git@github.com:fuzesmarcell/fish2sphere.git
 cd fish2sphere
 mkdir build && cd build
 cmake ..
+cmake --build .
 ```
 
 ## Running
